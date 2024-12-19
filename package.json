@@ -1,0 +1,48 @@
+{
+  "name": "@megaorm/text",
+  "version": "1.1.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "description": "This package is designed to offer a variety of string manipulation functions. It simplifies working with and transforming strings in your projects.",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-text.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc --watch"
+  },
+  "keywords": [
+    "megaorm",
+    "string-manipulation",
+    "text-utils",
+    "case-conversion",
+    "camelcase",
+    "snakecase",
+    "kebabcase",
+    "string-transformations",
+    "text-helpers",
+    "string-functions",
+    "string-library",
+    "pluralize",
+    "singularize",
+    "text-processing",
+    "string-utils",
+    "megaorm-text",
+    "text-transform",
+    "string-formatting",
+    "case-formatting",
+    "string-toolkit"
+  ],
+  "dependencies": {
+    "@megaorm/test": "^1.2.0"
+  }
+}
